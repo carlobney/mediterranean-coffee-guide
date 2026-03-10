@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mediterranean Coffee Guide ☕</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/theme/night.min.css" />
+  <style>
+    :root {
+      --accent: #c8a96e;
+      --light: #f5efe0;
+    }
+
+    .reveal {
+      font-family: 'Georgia', serif;
+    }
+
+    .reveal .slides section {
+      text-align: left;
+    }
+
+    .reveal h1, .reveal h2, .reveal h3 {
+      color: var(--accent);
+      font-family: 'Georgia', serif;
+      text-transform: none;
+      letter-spacing: 0.02em;
+    }
+
+    .reveal h1 { font-size: 2.2em; text-align: center; }
+    .reveal h2 { font-size: 1.6em; }
+    .reveal h3 { font-size: 1.1em; color: var(--light); margin-bottom: 0.3em; }
+
+    .flag { font-size: 1.5em; margin-right: 0.3em; }
+
+    .shop-name {
+      font-size: 1.3em;
+      color: var(--accent);
+      font-weight: bold;
+      margin: 0.4em 0 0.2em;
+    }
+
+    .buy-label {
+      font-size: 0.75em;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      color: var(--accent);
+      opacity: 0.8;
+      margin-top: 0.8em;
+    }
+
+    .bean-name {
+      font-size: 1em;
+      color: var(--light);
+      font-style: italic;
+      margin-bottom: 0.4em;
+    }
+
+    .tasting-notes {
+      font-size: 0.85em;
+      color: #aaa;
+      line-height: 1.5;
+    }
+
+    .tasting-notes span {
+      display: inline-block;
+      background: rgba(200,169,110,0.15);
+      border: 1px solid rgba(200,169,110,0.3);
+      border-radius: 20px;
+      padding: 0.1em 0.6em;
+      margin: 0.15em 0.1em;
+      color: var(--light);
+    }
+
+    .location {
+      font-size: 0.75em;
+      color: #888;
+      margin-top: 0.6em;
+    }
+
+    .location::before { content: "📍 "; }
+
+    .hero-sub {
+      text-align: center;
+      color: #aaa;
+      font-size: 1em;
+      margin-top: 0.5em;
+    }
+
+    .hero-route {
+      text-align: center;
+      color: var(--accent);
+      font-size: 0.85em;
+      margin-top: 1em;
+      opacity: 0.8;
+    }
+
+    .star-pick {
+      background: rgba(200,169,110,0.12);
+      border-left: 3px solid var(--accent);
+      padding: 0.4em 0.8em;
+      border-radius: 0 6px 6px 0;
+      margin-top: 0.5em;
+      font-size: 0.82em;
+      color: var(--light);
+      font-style: italic;
+    }
+
+    .divider {
+      border: none;
+      border-top: 1px solid rgba(200,169,110,0.2);
+      margin: 0.6em 0;
+    }
+  </style>
+</head>
+<body>
+<div class="reveal">
+  <div class="slides">
+
+    <!-- TITLE -->
+    <section>
+      <h1>☕ Mediterranean<br/>Coffee Guide</h1>
+      <p class="hero-sub">The best beans to bring home — port by port</p>
+      <p class="hero-route">Venice · Split · Dubrovnik · Corfu · Naples · Rome · Florence · Nice · Marseille · Barcelona</p>
+    </section>
+
+    <!-- VENICE -->
+    <section>
+      <h2><span class="flag">🇮🇹</span> Venice</h2>
+      <div class="shop-name">Torrefazione Cannaregio</div>
+      <p style="font-size:0.8em; color:#aaa;">One of the most respected traditional roasters in Venice.</p>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Miscela Speciale Espresso</div>
+      <div class="tasting-notes">
+        <span>Chocolate</span> <span>Hazelnut</span> <span>Low Acidity</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Classic Italian espresso profile. Great for espresso or iced americano.</p>
+      <div class="location">Cannaregio district — easy walk from main tourist areas</div>
+    </section>
+
+    <!-- SPLIT -->
+    <section>
+      <h2><span class="flag">🇭🇷</span> Split</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">Croatia has an underrated specialty coffee scene.</p>
+      <div class="shop-name">D16 Coffee</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Brazil Fazenda Ambiental</div>
+      <div class="tasting-notes">
+        <span>Smooth</span> <span>Chocolatey</span> <span>Low Acidity</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Excellent for espresso.</p>
+      <div class="location">Inside Diocletian's Palace area</div>
+    </section>
+
+    <!-- DUBROVNIK -->
+    <section>
+      <h2><span class="flag">🇭🇷</span> Dubrovnik</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">One of Croatia's best specialty roasters.</p>
+      <div class="shop-name">Cogito Coffee</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Cogito House Espresso</div>
+      <div class="tasting-notes">
+        <span>Caramel</span> <span>Chocolate</span> <span>Balanced</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Very drinkable. Balanced espresso blend.</p>
+      <div class="location">Old Town</div>
+    </section>
+
+    <!-- CORFU -->
+    <section>
+      <h2><span class="flag">🇬🇷</span> Corfu</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">Greek coffee culture is strong. Espresso roasting is newer but solid.</p>
+      <div class="shop-name">Coffee Island</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Brazil Single Origin</div>
+      <div class="tasting-notes">
+        <span>Nutty</span> <span>Smooth</span> <span>Versatile</span>
+      </div>
+      <div class="location">Multiple locations on the island</div>
+    </section>
+
+    <!-- NAPLES -->
+    <section>
+      <h2><span class="flag">🇮🇹</span> Naples</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">Naples might be the espresso capital of the world.</p>
+      <div class="shop-name">Passalacqua Coffee</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Passalacqua Harem</div>
+      <div class="tasting-notes">
+        <span>Chocolate</span> <span>Spice</span> <span>Creamy Body</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Legendary Neapolitan espresso. One of Italy's most famous beans.</p>
+      <div class="star-pick">⭐ If they only bring you one bag from the whole trip — this is the one.</div>
+    </section>
+
+    <!-- ROME -->
+    <section>
+      <h2><span class="flag">🇮🇹</span> Rome</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">Iconic Roman coffee shop.</p>
+      <div class="shop-name">Sant'Eustachio Il Caffè</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Regina dei Caffè</div>
+      <div class="tasting-notes">
+        <span>Sweet</span> <span>Chocolatey</span> <span>Classic Roman Blend</span>
+      </div>
+      <div class="location">Near the Pantheon</div>
+    </section>
+
+    <!-- FLORENCE -->
+    <section>
+      <h2><span class="flag">🇮🇹</span> Florence</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">Some of Italy's best modern roasters.</p>
+      <div class="shop-name">Ditta Artigianale</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Jump Espresso Blend</div>
+      <div class="tasting-notes">
+        <span>Chocolate</span> <span>Caramel</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Modern approach, still great for espresso.</p>
+      <div class="location">Several locations</div>
+    </section>
+
+    <!-- NICE -->
+    <section>
+      <h2><span class="flag">🇫🇷</span> Villefranche-sur-Mer / Nice</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">The best roaster nearby is in Nice.</p>
+      <div class="shop-name">Kawa Coffee</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Kawa Espresso Blend</div>
+      <div class="tasting-notes">
+        <span>Complex</span> <span>Balanced</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">One of France's best specialty roasters.</p>
+    </section>
+
+    <!-- MARSEILLE -->
+    <section>
+      <h2><span class="flag">🇫🇷</span> Marseille</h2>
+      <div class="shop-name">Deep Coffee Roasters</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Deep Espresso Blend</div>
+      <div class="tasting-notes">
+        <span>Chocolate</span> <span>Almond</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Great espresso structure.</p>
+    </section>
+
+    <!-- BARCELONA -->
+    <section>
+      <h2><span class="flag">🇪🇸</span> Barcelona</h2>
+      <p style="font-size:0.82em; color:#aaa; margin-bottom:0.3em;">One of Europe's best coffee scenes.</p>
+      <div class="shop-name">Nomad Coffee</div>
+      <hr class="divider" />
+      <div class="buy-label">Buy</div>
+      <div class="bean-name">Nomad Espresso Blend</div>
+      <div class="tasting-notes">
+        <span>Sweet</span> <span>Balanced</span> <span>Great Iced</span>
+      </div>
+      <p style="font-size:0.82em; color:#ccc; margin-top:0.5em;">Extremely high quality. Excellent for iced espresso drinks.</p>
+      <div class="location">Nomad Coffee Lab</div>
+    </section>
+
+    <!-- RECAP -->
+    <section>
+      <h2 style="text-align:center;">The Short List</h2>
+      <table style="font-size:0.72em; width:100%; border-collapse:collapse;">
+        <thead>
+          <tr style="color:var(--accent); border-bottom:1px solid rgba(200,169,110,0.3);">
+            <th style="padding:0.4em 0.6em; text-align:left;">City</th>
+            <th style="padding:0.4em 0.6em; text-align:left;">Shop</th>
+            <th style="padding:0.4em 0.6em; text-align:left;">Bean</th>
+          </tr>
+        </thead>
+        <tbody style="color:#ccc;">
+          <tr><td style="padding:0.3em 0.6em;">🇮🇹 Venice</td><td>Torrefazione Cannaregio</td><td>Miscela Speciale</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇭🇷 Split</td><td>D16 Coffee</td><td>Brazil Fazenda Ambiental</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇭🇷 Dubrovnik</td><td>Cogito Coffee</td><td>House Espresso</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇬🇷 Corfu</td><td>Coffee Island</td><td>Brazil Single Origin</td></tr>
+          <tr style="background:rgba(200,169,110,0.08);"><td style="padding:0.3em 0.6em;">🇮🇹 Naples ⭐</td><td>Passalacqua</td><td><strong>Harem</strong></td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇮🇹 Rome</td><td>Sant'Eustachio</td><td>Regina dei Caffè</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇮🇹 Florence</td><td>Ditta Artigianale</td><td>Jump Espresso</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇫🇷 Nice</td><td>Kawa Coffee</td><td>Espresso Blend</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇫🇷 Marseille</td><td>Deep Coffee</td><td>Espresso Blend</td></tr>
+          <tr><td style="padding:0.3em 0.6em;">🇪🇸 Barcelona</td><td>Nomad Coffee</td><td>Espresso Blend</td></tr>
+        </tbody>
+      </table>
+    </section>
+
+  </div>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/reveal.js/5.1.0/reveal.min.js"></script>
+<script>
+  Reveal.initialize({
+    hash: true,
+    transition: 'fade',
+    transitionSpeed: 'slow',
+    controls: true,
+    progress: true,
+    center: false,
+    width: 960,
+    height: 700,
+  });
+</script>
+</body>
+</html>
